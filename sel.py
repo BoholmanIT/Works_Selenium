@@ -1,3 +1,7 @@
 from selenium import webdriver
-from selenium.webdriver.support.select import select
 import time
+
+browser = webdriver.Chrome()
+browser.maximize_window()
+browser.get("https://nstu.ru/")
+time.sleep(5)
